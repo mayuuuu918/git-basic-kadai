@@ -1,0 +1,16 @@
+PS C:\xampp\htdocs\php-db> cd C:\Git\git_challenge
+
+PS C:\Git\git_challenge> git add hello_world.txt  
+PS C:\Git\git_challenge> git commit -m "hello_world.txtHを追加"
+[main (root-commit) 3f5dbed] hello_world.txtH繧定ｿｽ蜉
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+PS C:\Git\git_challenge> git add hello_world.txt
+PS C:\Git\git_challenge> git commit -m " 日本語訳を追記"
+[main abc0911]  譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Git\git_challenge> git log --oneline
+abc0911 (HEAD -> main)  日本語訳を追記
+3f5dbed hello_world.txtHを追加
+PS C:\Git\git_challenge> 
